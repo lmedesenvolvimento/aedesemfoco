@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+body{
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: transparentize($black, 0.3);
+}
+
+.heading{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.8em;
+  color: $black;
+  margin: 0.25em 0;
+  line-height: 1;
+}
+
+.title{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
+  color: $black;
+  margin: 1em 0;
+}
+
+.subhead, .caption{
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.subhead{
+  font-size: 14pt;
+}
+
+.caption{
+  font-size: 11pt;
+}
+
+
+p{
+  margin: 1em 0;
+}

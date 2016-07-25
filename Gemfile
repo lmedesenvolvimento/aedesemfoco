@@ -12,6 +12,7 @@ gem 'jekyll-assets', '2.1.0'
 gem 'jekyll-sitemap', '0.9.0'
 gem "jekyll-angular"
 gem "jekyll-coffeescript"
+gem 'jekyll-watch'
 gem 'jekyll'
 
 gem "coffee-script"

@@ -1,23 +1,75 @@
 ---
 layout: default
 ---
+<section>
+  <div class="container">
+    <div class="row center-xs center-xs">
+      <div class="col-md-6">
+        {% img "mockup-devices.png" class:"img-responsive" magick:quality:50 %}
+      </div>
+      <div class="col-md-6">
+        <div class="wrap">
+          <div class="heading">Lorem ipsum dolor sit amet</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
 
-<div class="home">
+          <div class="row center-xs bagde">
+            <div class="col-xs-12">
+              <div class="row center-xs">
+                <div class="col-xs-6">
+                  {% img "app-store.svg" class:"img-responsive" magick:quality:50 width:135 %}
+                </div>
+                <div class="col-xs-6">
+                  {% img "google-play.png" class:"img-responsive" magick:quality:50 width:135 %}
+                </div>
+              </div>
+            </div>
+          </div>
 
-  <h1 class="page-heading">Posts</h1>
+          <div class="row center-xs about-more">
+            <div class="col-xs-8">
+              <a class="caption">
+                Saiba mais sobre o Aedes em Foco <br>
+                <i class="fa fa-angle-down"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<section class="landscape crop">
+  <div class="container">
+    <div class="heading text-center">Lorem ipsum dolor sit amet</div>
+  </div>
+</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<section>
+  <div class="container">
+    <div class="heading text-center">Lorem ipsum</div>
+    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+  </div>
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section>
+  <div class="container">
+    <div class="row center-xs">
+      <div class="col-md-4">
+        <div class="title">List</div>
+        <div class="icon-list icon-lg color-primary"></div>
+        <p>Lorem ipsum dolor sit amet </p>
+      </div>
+      <div class="col-md-4">
+        <div class="title">Groups</div>
+        <div class="icon-list icon-lg color-primary"></div>
+        <p>Lorem ipsum dolor sit amet </p>
+      </div>
+      <div class="col-md-4">
+        <div class="title">Hospital</div>
+        <div class="icon-list icon-lg color-primary"></div>
+        <p>Lorem ipsum dolor sit amet </p>
+      </div>
+    </div>
+  </div>
+</section>

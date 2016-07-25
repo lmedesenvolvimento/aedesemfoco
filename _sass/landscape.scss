@@ -1,0 +1,16 @@
+.landscape{
+  @include display(flex);
+  @include align-items(center);
+  @include justify-content(center);
+  background-color: $black;
+  min-height: 55vh;
+  color: white;
+  &.crop{
+    position: relative;
+    z-index: 2;
+    margin-top: -5em;
+  }
+  .heading{
+    color: white !important;
+  }
+}

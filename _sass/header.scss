@@ -1,0 +1,48 @@
+header{
+  margin-top: 16px;
+  color: $primary;
+}
+
+header .navbar.navbar-default{
+  background-color: white;
+  border-bottom: none;
+}
+
+header .navbar-brand{
+  line-height: 128px;
+  max-height: 128px;
+  height: auto;
+  [class="icon-aedes-logo"]{
+    color: $primary;
+    font-size: 64pt;
+  }
+}
+
+#topNavbar{
+  ul li{
+    @include display(flex);
+    @extend .middle-xs;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14pt;
+    color: $primary;
+    text-transform: uppercase;
+    height: 128px;
+    line-height: 128px;
+    a{
+      color: $primary;
+      &:hover{
+        color: darken($primary, 5);
+      }
+    }
+  }
+}
+
+@media(max-width: $sm){
+  #topNavbar{
+    ul li{
+      height: 64px;
+      line-height: 64px;
+    }
+  }
+}

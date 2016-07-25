@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
+title: Aedes em Foco
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+# baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -20,11 +20,25 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 excerpt_separator: ""
+incremental: true
+regenerate: true
+
+sass:
+  sass_dir: _sass
 
 gems:
   - jekyll-assets
   - jekyll-angular
   - jekyll-coffeescript
+  - sass
+
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  sass_dir: _sass
 
 assets:
   compress:
@@ -34,9 +48,10 @@ assets:
     js:
       development: false
       production: true
-  debug: false
-  cache: .asset-cache
+  debug: true
+  cache: false
   cdn: false
+  host: 0.0.0.0
   skip_baseurl_with_cdn: false
   skip_prefix_with_cdn: false
   prefix: ""
@@ -50,14 +65,13 @@ assets:
     - "bundle.css"
   digest: true
   sources:
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/fonts
+    - _images
+    - _javascripts
+    - _sass
+    - _fonts
     - vendor
   features:
     liquid: false
-    integrity: true
     automatic_img_size: true
     automatic_img_alt : true
 

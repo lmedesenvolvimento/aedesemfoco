@@ -1,0 +1,32 @@
+section{
+  margin: 2.1em 0;
+}
+.wrap{
+  margin: 0 0 1.8em;
+  line-height: 1;
+  .bagde{
+    margin-top: 1em;
+  }
+  .about-more{
+    margin-top: 5em;
+    a.caption{
+      color: transparentize($black, 0.5);
+      text-transform: uppercase;
+      font-size: 9pt;
+      .fa{
+        font-size: 36pt;
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  section{
+    text-align: center;
+  }
+}
+
+
+.img-responsive{
+  margin: auto !important;
+}
