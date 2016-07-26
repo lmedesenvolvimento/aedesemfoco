@@ -1,0 +1,41 @@
+.landscape{
+  @include display(flex);
+  @include align-items(center);
+  @include justify-content(center);
+  background-color: $black;
+  min-height: 55vh;
+  color: white;
+  margin: 0;
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  &.forwarded{
+    margin: -2.1em 0px 0px;
+  }
+  .heading{
+    color: white !important;
+  }
+  .video-js{
+    background-color: transparent;
+    &:not(.vjs-fullscreen){
+      height: 55vh;
+      transition: height 1.4s ease;
+    }
+    video, iframe{
+      transform: scale(2.0);
+    }
+    .vjs-poster{
+      background-attachment: fixed;
+    }
+    &.vjs-fullscreen{
+      video{
+        transform: scale(1.0);
+      }
+    }
+    &.vjs-playing:not(.vjs-fullscreen){
+      height: 72.5vh;
+    }
+  }
+}

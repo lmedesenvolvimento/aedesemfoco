@@ -8,12 +8,12 @@ gem 'sprockets-es6', '0.8.2'
 gem 'sprockets', '3.5.2'
 gem 'tilt', '2.0.1'
 
-gem 'jekyll-assets', '2.1.0'
-gem 'jekyll-sitemap', '0.9.0'
+gem "jekyll-assets", "2.1.0"
+gem "jekyll-sitemap", "0.9.0"
 gem "jekyll-angular"
 gem "jekyll-coffeescript"
-gem 'jekyll-watch'
-gem 'jekyll'
+gem "jekyll-watch"
+gem "jekyll"
 
 gem "coffee-script"
 gem "sass"
@@ -24,11 +24,10 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem "autoprefixer-rails"
 
 source 'https://rails-assets.org' do
-  gem 'rails-assets-angular', '1.5.8'
-  gem 'rails-assets-angular-aria', '1.5.8'
-  gem 'rails-assets-angular-animate', '1.5.8'
   gem 'rails-assets-jquery', '2.2.3'
   gem 'rails-assets-bootswatch', '~>3.3.6'
   gem 'rails-assets-bourbon', '4.2.6'
   gem 'rails-assets-flexboxgrid','6.3.0'
+  gem 'rails-assets-videojs', '5.11.0'
+  gem 'rails-assets-videojs-youtube', '2.1.0'
 end

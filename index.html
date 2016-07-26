@@ -3,31 +3,32 @@ layout: default
 ---
 <section>
   <div class="container">
-    <div class="row center-xs center-xs">
-      <div class="col-md-6">
-        {% img "mockup-devices.png" class:"img-responsive" magick:quality:50 %}
+    <div class="row center-xs">
+      <div class="col-md-6 row bottom-xs">
+        {% img "mockup-devices.png" class:"img-responsive visible-xs" magick:quality:50 %}
+        {% img "mockup-devices-crop.png" class:"img-responsive hidden-xs" magick:quality:50 %}
       </div>
       <div class="col-md-6">
-        <div class="wrap">
-          <div class="heading">Lorem ipsum dolor sit amet</div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+        <div class="column fill">
+          <div class="heading text-left">Lorem ipsum dolor sit amet</div>
+          <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
 
-          <div class="row center-xs bagde">
-            <div class="col-xs-12">
+          <div class="row center-xs margin-top margin-bottom">
+            <div class="col-xs-8">
               <div class="row center-xs">
                 <div class="col-xs-6">
-                  {% img "app-store.svg" class:"img-responsive" magick:quality:50 width:135 %}
+                  {% img "app-store.svg" class:"img-responsive" magick:quality:50, width:227 %}
                 </div>
                 <div class="col-xs-6">
-                  {% img "google-play.png" class:"img-responsive" magick:quality:50 width:135 %}
+                  {% img "google-play.png" class:"img-responsive" magick:quality:50 %}
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="row center-xs about-more">
+          <div class="row center-xs bottom-xs about-more flex">
             <div class="col-xs-8">
-              <a class="caption">
+              <a class="caption angle-down">
                 Saiba mais sobre o Aedes em Foco <br>
                 <i class="fa fa-angle-down"></i>
               </a>
@@ -39,16 +40,22 @@ layout: default
   </div>
 </section>
 
-<section class="landscape crop">
+<section class="landscape forwarded" style="background-image:url({{'videos/bbb_sunflower_1080p_60fps_25_11_poster.jpg' | prepend: site.baseurl}})">
   <div class="container">
-    <div class="heading text-center">Lorem ipsum dolor sit amet</div>
+    <video id="about" class="video-js vjs-default-skin" width="640px" height="267px"
+        controls preload="none" data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+      <source src="{{'videos/bbb_sunflower_1080p_60fps_25_11.mp4' | prepend: site.baseurl}}" type='video/mp4' />
+    </video>
+    <!-- <div class="heading text-center">Lorem ipsum dolor sit amet</div> -->
   </div>
 </section>
 
 <section>
   <div class="container">
-    <div class="heading text-center">Lorem ipsum</div>
-    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+    <div class="heading text-center">Sed pretium!</div>
+    <div class="row center-xs">
+      <p class="col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+    </div>
   </div>
 </section>
 
@@ -56,20 +63,96 @@ layout: default
   <div class="container">
     <div class="row center-xs">
       <div class="col-md-4">
-        <div class="title">List</div>
-        <div class="icon-list icon-lg color-primary"></div>
-        <p>Lorem ipsum dolor sit amet </p>
+        <div class="title column">
+          <span class="icon-list icon-lg color-primary"></span>
+          <span>List</span>
+          <p class="subhead">Lorem ipsum dolor sit amet </p>
+        </div>
       </div>
       <div class="col-md-4">
-        <div class="title">Groups</div>
-        <div class="icon-list icon-lg color-primary"></div>
-        <p>Lorem ipsum dolor sit amet </p>
+        <div class="title column">
+          <span class="icon-equipe icon-lg color-primary"></span>
+          <span>Groups</span>
+          <p class="subhead">Lorem ipsum dolor sit amet </p>
+        </div>
       </div>
       <div class="col-md-4">
-        <div class="title">Hospital</div>
-        <div class="icon-list icon-lg color-primary"></div>
-        <p>Lorem ipsum dolor sit amet </p>
+        <div class="title column">
+          <span class="icon-hospital icon-lg color-primary"></span>
+          <span>Hospital</span>
+        </div>
+        <p class="subhead">Lorem ipsum dolor sit amet </p>
       </div>
     </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="heading text-center">Intuitive & Smart</div>
+    <div class="row center-xs">
+      <p class="col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="row start-xs middle-xs">
+      <div class="col-md-3">
+        <div class="column">
+          <div class="title">
+            Lorem ipsum
+            <p class="subhead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+          </div>
+          <div class="title">
+            Lorem ipsum
+            <p class="subhead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+          </div>
+          <div class="title">
+            Lorem ipsum
+            <p class="subhead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        {% img "mockup-menu.png" class:"img-responsive" magick:quality:85 %}
+      </div>
+      <div class="col-md-3">
+        <div class="column">
+          <div class="title">
+            Lorem ipsum
+            <p class="subhead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+          </div>
+          <div class="title">
+            Lorem ipsum
+            <p class="subhead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+          </div class="subhead">
+          <div class="title">
+            Lorem ipsum
+            <p class="subhead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="container">
+    <div class="heading text-center">Lorem ipsum dolor sit amet</div>
+    <div class="row center-xs">
+      <p class="col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="landscape">
+  <div class="container">
+    <div class="heading text-center">Equipe</div>
   </div>
 </section>

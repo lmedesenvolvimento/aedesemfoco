@@ -37,9 +37,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-sass:
-  sass_dir: _sass
-
 assets:
   compress:
     css:
@@ -49,7 +46,7 @@ assets:
       development: false
       production: true
   debug: true
-  cache: false
+  cache: .assets_cache
   cdn: false
   host: 0.0.0.0
   skip_baseurl_with_cdn: false
@@ -62,13 +59,16 @@ assets:
     - "*.png"
     - "*.jpg"
     - "*.svg"
+    - "*.eot"
+    - "*.ttf"
+    - "*.woff"
     - "bundle.css"
   digest: true
   sources:
-    - _images
-    - _javascripts
-    - _sass
-    - _fonts
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheet
+    - _assets/fonts
     - vendor
   features:
     liquid: false
