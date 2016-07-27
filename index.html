@@ -28,10 +28,10 @@ layout: default
 
           <div class="row center-xs bottom-xs about-more flex">
             <div class="col-xs-8">
-              <a class="caption angle-down">
+              <span class="caption angle-down">
                 Saiba mais sobre o Aedes em Foco <br>
-                <i class="fa fa-angle-down"></i>
-              </a>
+                <a class="fa fa-angle-down" sref-scroll="#about"></a>
+              </span>
             </div>
           </div>
         </div>
@@ -40,13 +40,21 @@ layout: default
   </div>
 </section>
 
-<section class="landscape forwarded" style="background-image:url({{'videos/bbb_sunflower_1080p_60fps_25_11_poster.jpg' | prepend: site.baseurl}})">
+<section class="landscape videojs-container forwarded">
   <div class="container">
     <video id="about" class="video-js vjs-default-skin" width="640px" height="267px"
-        controls preload="none" data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
-      <source src="{{'videos/bbb_sunflower_1080p_60fps_25_11.mp4' | prepend: site.baseurl}}" type='video/mp4' />
+        controls preload="none" data-setup='{
+          "aspectRatio":"640:267",
+          "playbackRates": [1, 1.5, 2],
+          "techOrder": ["youtube"],
+          "poster": "/videos/bbb_sunflower_1080p_60fps_25_11_poster.jpg",
+          "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/embed/XSGBVzeBUbk?autohide=1&wmode=transparent"}],
+          "youtube": {"autohide":"1", "rel":"0"}
+        }'>
+      <!-- <source src="{{'videos/bbb_sunflower_1080p_60fps_25_11.mp4' | prepend: site.baseurl}}" type='video/mp4' /> -->
     </video>
-    <!-- <div class="heading text-center">Lorem ipsum dolor sit amet</div> -->
+    <div class="heading text-center">Lorem ipsum dolor sit amet</div>
+    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
   </div>
 </section>
 
@@ -145,14 +153,61 @@ layout: default
   <div class="container">
     <div class="heading text-center">Lorem ipsum dolor sit amet</div>
     <div class="row center-xs">
-      <p class="col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+      <p class="col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor adipisicing elit, sed do eiusmod tempor</p>
     </div>
   </div>
 </section>
 
-
-<section class="landscape">
+<section class="team">
   <div class="container">
-    <div class="heading text-center">Equipe</div>
+    <div class="row slide">
+      <div class="panel panel-default">
+        <div class="panel-body text-center">
+          <img src="https://pbs.twimg.com/profile_images/2955559089/83f09d26307253decde4d58ecd14c2e9_400x400.jpeg" class="img-circle img-responsive">
+          <p class="subhead margin-top">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="title">Erlic Backman</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body text-center">
+          <img src="http://54.165.17.179/assets/images/people/tiles/karlene-quigley-large.jpg" class="img-circle img-responsive">
+          <p class="subhead margin-top">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="title">Lorem Ispum</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body text-center">
+          <img src="http://pbs.twimg.com/profile_images/558109954561679360/j1f9DiJi.jpeg" class="img-circle img-responsive">
+          <p class="subhead margin-top">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="title">Lorem Ispum</div>
+          <!-- A Basic Panel -->
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body text-center">
+          <img src="http://54.165.17.179/assets/images/people/tiles/karlene-quigley-large.jpg" class="img-circle img-responsive">
+          <p class="subhead margin-top">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="title">Lorem Ispum</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body text-center">
+          <img src="http://pbs.twimg.com/profile_images/558109954561679360/j1f9DiJi.jpeg" class="img-circle img-responsive">
+          <p class="subhead margin-top">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="title">Lorem Ispum</div>
+          <!-- A Basic Panel -->
+        </div>
+      </div>
+    </div>
   </div>
 </section>

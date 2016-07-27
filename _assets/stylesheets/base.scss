@@ -19,13 +19,17 @@
 
 section{
   margin: 2.1em 0;
+  &.team{
+    background-color: #eee;
+  }
 }
 
-a.angle-down{
+.angle-down{
   color: transparentize($black, 0.5);
   text-transform: uppercase;
   font-size: 9pt;
   .fa{
+    color: transparentize($black, 0.5);
     font-size: 36pt;
   }
 }
@@ -66,5 +70,6 @@ a.angle-down{
 
 // LINKS
 a, a:hover, a:focus{
-  text-transform: none;
+  cursor: pointer;
+  text-decoration: none;
 }

@@ -12,7 +12,12 @@
     </div>
 
     {% include footer.html %}
-
+    {% js app %}
+    {% bundle %}
+      - https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js
+      - https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css
+      - https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js
+    {% endbundle %}
   </body>
 
 </html>

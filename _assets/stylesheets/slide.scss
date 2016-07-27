@@ -1,0 +1,15 @@
+.slide{
+  display: none;
+  margin: 2em 0;
+  &.slick-initialized{
+    display: block;
+  }
+  .panel{
+    background-color: white;
+    margin: 0 0.37em;
+  }
+}
+
+.slick-slide img{
+  max-width: 150px;
+}

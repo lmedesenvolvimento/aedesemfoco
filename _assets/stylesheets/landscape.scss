@@ -1,7 +1,15 @@
+// $big-play-width: 3em;
+// $big-play-height: 1.5em;
+$big-play-width: 4em;
+$big-play-height: 4em;
+$big-play-background: #cddc39;
+$big-play-color: #525817;
+
 .landscape{
   @include display(flex);
   @include align-items(center);
   @include justify-content(center);
+  position: relative;
   background-color: $black;
   min-height: 55vh;
   color: white;
@@ -14,28 +22,107 @@
   &.forwarded{
     margin: -2.1em 0px 0px;
   }
+
   .heading{
     color: white !important;
   }
+
   .video-js{
     background-color: transparent;
     &:not(.vjs-fullscreen){
       height: 55vh;
       transition: height 1.4s ease;
     }
-    video, iframe{
+    video{
       transform: scale(2.0);
     }
     .vjs-poster{
-      background-attachment: fixed;
+      transform: scale(2.0);
+      opacity: 0.7;
     }
     &.vjs-fullscreen{
-      video{
+      video, iframe{
         transform: scale(1.0);
       }
     }
+    &:not(.vjs-fullscreen) iframe{
+      opacity: 0;
+    }
     &.vjs-playing:not(.vjs-fullscreen){
       height: 72.5vh;
+    }
+    &.vjs-has-started:not(.vjs-fullscreen){
+      iframe{
+        transform: scale(2.0);
+        opacity: 1;
+      }
+      + .heading, + .heading + p{
+        display: none;
+      }
+    }
+    &.vjs-playing{
+      .vjs-big-play-button{
+        display: none;
+      }
+    }
+  }
+  .vjs-default-skin .vjs-big-play-button{
+    @include display(flex);
+    @include align-items(center);
+    @include justify-content(center);
+    background-color: $big-play-background;
+    border-color: transparent;
+    color: $big-play-color;
+    left: 50%;
+    top: 50%;
+    width: $big-play-width;
+    height: $big-play-height;
+    margin-left: -($big-play-width / 2);
+    margin-top: -($big-play-height / 2);
+    border-radius: 50%;
+    &::before{
+      position: static;
+      font-size: 48pt;
+    }
+  }
+}
+
+.landscape.videojs-container{
+  position: relative;
+  background-color: #333;
+  .heading, p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: white !important;
+    // text-shadow: 1px 2px 2px #666;
+    z-index: 10;
+  }
+  .heading{
+    @include ellipsis(100%);
+    top: 0.65em;
+  }
+  p{
+    max-width: 35vw;
+    bottom: 2em;
+    margin: auto;
+  }
+  &.vjs-has-started{
+    display: none;
+  }
+}
+
+@media (max-width: $md) {
+  .landscape.videojs-container{
+    .heading, p{
+      display: none;
+    }
+  }
+}
+@media (max-width: $sm) {
+  .landscape.videojs-container{
+    .heading, p{
+      display: none;
     }
   }
 }

@@ -65,6 +65,8 @@ GEM
     rails-assets-bourbon (4.2.6)
     rails-assets-flexboxgrid (6.3.0)
     rails-assets-jquery (2.2.3)
+    rails-assets-jquery.scrollTo (2.1.2)
+      rails-assets-jquery (>= 1.8)
     rails-assets-video.js (5.11.0)
     rails-assets-videojs (5.11.0)
     rails-assets-videojs-youtube (2.1.0)
@@ -109,6 +111,7 @@ DEPENDENCIES
   rails-assets-bourbon (= 4.2.6)!
   rails-assets-flexboxgrid (= 6.3.0)!
   rails-assets-jquery (= 2.2.3)!
+  rails-assets-jquery.scrollTo (= 2.1.2)!
   rails-assets-videojs (= 5.11.0)!
   rails-assets-videojs-youtube (= 2.1.0)!
   sass
