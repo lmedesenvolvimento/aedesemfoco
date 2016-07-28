@@ -3,10 +3,53 @@
   margin: 2em 0;
   &.slick-initialized{
     display: block;
+    .slick-arrow{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      margin: auto;
+      outline: none;
+      border: none;
+      background-color: none;
+      color: transparentize($black, 0.7);
+      font-size: 48pt;
+      z-index: 20;
+    }
+    .slick-prev{
+      left: 0;
+      margin-left: -1em;
+    }
+    .slick-next{
+      right: 0;
+      margin-right: -1em;
+    }
   }
   .panel{
     background-color: white;
     margin: 0 0.37em;
+  }
+}
+@media (max-width: $md) {
+  .slide.slick-initialized{
+    .slick-arrow{
+      color: transparentize($black, 0.9);
+      font-size: 32pt;
+    }
+    .slick-prev{
+      margin-left: -0.30em;
+    }
+    .slick-next{
+      margin-right: 0em;
+    }
+  }
+}
+@media (max-width: $sm) {
+  .slide.slick-initialized{
+    .slick-prev, .slick-next{
+      display: none !important;
+    }
   }
 }
 

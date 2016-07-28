@@ -25,3 +25,17 @@ do ->
     $(".slide").slick
       infinite: false
       slidesToShow: 3
+      prevArrow: "<a class='slick-prev fa fa-angle-left'></a>"
+      nextArrow: "<a class='slick-next fa fa-angle-right'></a>"
+      responsive:[
+        {
+          breakpoint: 750
+          settings:
+            slidesToShow: 2
+        },
+        {
+          breakpoint: 480
+          settings:
+            slidesToShow: 1
+        }
+      ]
