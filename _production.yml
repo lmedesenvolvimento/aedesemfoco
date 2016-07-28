@@ -84,5 +84,5 @@ asset_bundler:
   dev: false
   bundle_name: false
   markup_templates:
-    js: "<script type='text/javascript' src='{{url | prepend: site.baseurl}}'></script>\n"
-    css: "<link rel='stylesheet' type='text/css' href='{{url | prepend: site.baseurl}}' />\n"
+    js: "<script type='text/javascript' src='/aedesemfoco/{{url}}'></script>\n"
+    css: "<link rel='stylesheet' type='text/css' href='/aedesemfoco/{{url}}' />\n"
