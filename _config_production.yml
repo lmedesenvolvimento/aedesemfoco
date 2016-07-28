@@ -78,7 +78,7 @@ asset_bundler:
   compress:
     js: false
     css: false
-  base_path: /aedesemfoco/bundles/
+  base_path: /bundles/
   server_url:
   remove_bundled: false
   dev: false

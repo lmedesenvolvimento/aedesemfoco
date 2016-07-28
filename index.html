@@ -47,7 +47,7 @@ layout: default
           "aspectRatio":"640:267",
           "playbackRates": [1, 1.5, 2],
           "techOrder": ["youtube"],
-          "poster": "/videos/bbb_sunflower_1080p_60fps_25_11_poster.jpg",
+          "poster": "{{ 'videos/bbb_sunflower_1080p_60fps_25_11_poster.jpg' | prepend: baseurl }}",
           "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/embed/XSGBVzeBUbk?autohide=1&wmode=transparent"}],
           "youtube": {"autohide":"1", "rel":"0"}
         }'>
