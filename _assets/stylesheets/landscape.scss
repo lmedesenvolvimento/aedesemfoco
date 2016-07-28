@@ -81,8 +81,10 @@ $big-play-color: #525817;
     margin-top: -($big-play-height / 2);
     border-radius: 50%;
     &::before{
-      position: static;
+      position: absolute;
       font-size: 48pt;
+      top: 36px;
+      bottom: 0;
     }
   }
 }

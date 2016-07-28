@@ -17,11 +17,13 @@ do ->
 
     videojs("about").ready ->
       this.on "play", (e)->
-        console.log "Play"
+        $(".vjs-big-play-button").css("opacity", "1")
         $("body, html").scrollTo "#about", { duration: 1000 }
     #
 
-  $(window).load (e)->
+    $("body").delegate ".vjs-big-play-button", "click", (e)->
+      $(e.target).css "opacity", "0"
+
     $(".slide").slick
       infinite: false
       slidesToShow: 3
