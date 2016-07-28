@@ -50,7 +50,7 @@ assets:
   cdn: false
   skip_baseurl_with_cdn: false
   skip_prefix_with_cdn: false
-  prefix: ""
+  prefix: "/assets"
   autowrite: false
   autoprefixer:
     browsers: ["> 1%","last 4 versions","IE > 8"]
