@@ -4,6 +4,7 @@ $big-play-width: 4em;
 $big-play-height: 4em;
 $big-play-background: #cddc39;
 $big-play-color: #525817;
+$playing-scale: 1.75;
 
 .landscape{
   @include display(flex);
@@ -34,10 +35,10 @@ $big-play-color: #525817;
       transition: height 1.4s ease;
     }
     video{
-      transform: scale(2.0);
+      transform: scale($playing-scale);
     }
     .vjs-poster{
-      transform: scale(2.0);
+      transform: scale($playing-scale);
       opacity: 0.7;
     }
     &.vjs-fullscreen{
@@ -49,11 +50,11 @@ $big-play-color: #525817;
       opacity: 0;
     }
     &.vjs-playing:not(.vjs-fullscreen){
-      height: 72.5vh;
+      height: 100vh;
     }
     &.vjs-has-started:not(.vjs-fullscreen){
       iframe{
-        transform: scale(2.0);
+        transform: scale($playing-scale);
         opacity: 1;
       }
       + .heading, + .heading + p{
