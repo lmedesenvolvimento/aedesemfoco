@@ -47,11 +47,11 @@ layout: default
           "aspectRatio":"560:315",
           "playbackRates": [1, 1.5, 2],
           "techOrder": ["youtube"],
-          "poster": "{{ 'videos/bbb_sunflower_1080p_60fps_25_11_poster.jpg' | prepend: baseurl }}",
-          "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/embed/fBx4gWKUNEA?autohide=1&wmode=transparent"}],
+          "poster": "{{ 'videos/poster.png' | prepend: baseurl }}",
+          "sources": [{ "type": "video/youtube", "src": "{{site.yt_url}}"}],
           "youtube": {"autohide":"1", "rel":"0"}
         }'>
-      <!-- <source src="{{'videos/bbb_sunflower_1080p_60fps_25_11.mp4' | prepend: site.baseurl}}" type='video/mp4' /> -->
+      <!-- https://www.youtube.com/embed/fBx4gWKUNEA?autohide=1&wmode=transparent -->
     </video>
     <div class="heading text-center">Veja como funciona nossa metodologia.</div>
     <p class="text-center">Não perca essa oportunidade de ajudar sua região a ficar longe do foco do mosquito.</p>

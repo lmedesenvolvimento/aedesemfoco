@@ -1,10 +1,13 @@
+// default
 // $big-play-width: 3em;
 // $big-play-height: 1.5em;
+
 $big-play-width: 4em;
 $big-play-height: 4em;
 $big-play-background: #cddc39;
 $big-play-color: #525817;
-$playing-scale: 1.75;
+$playing-scale: 1.0;
+$playing-scale-cover: 1.7;
 
 .landscape{
   @include display(flex);
@@ -38,7 +41,7 @@ $playing-scale: 1.75;
       transform: scale($playing-scale);
     }
     .vjs-poster{
-      transform: scale($playing-scale);
+      transform: scale($playing-scale-cover);
       opacity: 0.7;
     }
     &.vjs-fullscreen{
@@ -50,7 +53,7 @@ $playing-scale: 1.75;
       opacity: 0;
     }
     &.vjs-playing:not(.vjs-fullscreen){
-      height: 100vh;
+      height: 65vh;
     }
     &.vjs-has-started:not(.vjs-fullscreen){
       iframe{
