@@ -15,8 +15,8 @@ description: > # this means to ignore newlines until "baseurl:"
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 yt_url: https://www.youtube.com/embed/fBx4gWKUNEA?autohide=1&wmode=transparent
-twitter_username: jekyllrb
-github_username:  jekyll
+android_app: jekyllrb
+ios_app:  https://appsto.re/br/7vfxeb.i
 
 # Build settings
 markdown: kramdown

@@ -2,7 +2,6 @@
   color: $primary;
 }
 
-
 .margin-left{
   margin-left: 1em;
 }
@@ -41,4 +40,10 @@
 
 .margin-lg-bottom{
   margin-bottom: 2.1em;
+}
+
+// Filters
+.gray-scale{
+  @include filter(grayscale(100%));
+  opacity: 0.8;
 }
