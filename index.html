@@ -21,8 +21,10 @@ layout: default
                     {% img "app-store.svg" class:"img-responsive" magick:quality:50, width:227 %}
                   </a>
                 </div>
-                <div class="col-xs-6 gray-scale" title="Ainda não disponível.">
-                  {% img "google-play.png" class:"img-responsive" magick:quality:50 %}
+                <div class="col-xs-6" title="Baixar no Google Play.">
+                  <a href="{{site.android_app}}" target="_blank" title="Baixar na Apple Store">
+                    {% img "google-play.png" class:"img-responsive" magick:quality:50 %}
+                  </a>
                 </div>
               </div>
             </div>
@@ -60,7 +62,7 @@ layout: default
   </div>
 </section>
 
-<section>
+<section id="about2">
   <div class="container">
     <div class="heading text-center">Veja o que o aplicativo tem para você</div>
     <div class="row center-xs">
