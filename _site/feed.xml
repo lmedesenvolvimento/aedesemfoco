@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aedes em Foco</title>
 <<<<<<< HEAD
+    <title>Aedes em Foco</title>
     <description>O Mosquito Aedes Aegypti não é mais forte que um país inteiro</description>
     <link>http://lmedesenvolvimento.github.io/</link>
     <atom:link href="http://lmedesenvolvimento.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Jan 2017 17:17:19 -0300</pubDate>
-    <lastBuildDate>Wed, 25 Jan 2017 17:17:19 -0300</lastBuildDate>
+    <pubDate>Wed, 25 Jan 2017 17:23:32 -0300</pubDate>
+    <lastBuildDate>Wed, 25 Jan 2017 17:23:32 -0300</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
 =======
+    <title>Aedes em Foco</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Sep 2016 13:23:00 -0300</pubDate>
-    <lastBuildDate>Thu, 08 Sep 2016 13:23:00 -0300</lastBuildDate>
->>>>>>> e6a4cea92d3df1a587acb9375b247813fbee4af6
+    <pubDate>Thu, 15 Sep 2016 15:09:34 -0300</pubDate>
+    <lastBuildDate>Thu, 15 Sep 2016 15:09:34 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
+>>>>>>> cc9657e82a1c3cb9d81c33712faea4911420a939
       <item>
         <title>Welcome to Jekyll!</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
@@ -36,13 +39,8 @@
 
 </description>
         <pubDate>Fri, 22 Jul 2016 16:05:35 -0300</pubDate>
-<<<<<<< HEAD
         <link>http://lmedesenvolvimento.github.io/jekyll/update/2016/07/22/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">http://lmedesenvolvimento.github.io/jekyll/update/2016/07/22/welcome-to-jekyll.html</guid>
-=======
-        <link>http://yourdomain.com/jekyll/update/2016/07/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/07/22/welcome-to-jekyll.html</guid>
->>>>>>> e6a4cea92d3df1a587acb9375b247813fbee4af6
         
         
         <category>jekyll</category>
