@@ -11,13 +11,22 @@
     <loc>http://lmedesenvolvimento.github.io/app/</loc>
   </url>
   <url>
+<<<<<<< HEAD
+=======
+    <loc>http://lmedesenvolvimento.github.io/</loc>
+  </url>
+  <url>
+>>>>>>> cc9657e82a1c3cb9d81c33712faea4911420a939
     <loc>http://lmedesenvolvimento.github.io/entrar/</loc>
   </url>
     <url>
       <loc>http://lmedesenvolvimento.github.io/jekyll/update/2016/07/22/welcome-to-jekyll.html</loc>
     </url>
+<<<<<<< HEAD
   <url>
     <loc>http://lmedesenvolvimento.github.io/index.html</loc>
     <lastmod>2017-01-25T17:23:12-03:00</lastmod>
   </url>
+=======
+>>>>>>> cc9657e82a1c3cb9d81c33712faea4911420a939
 </urlset>
