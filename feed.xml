@@ -2,24 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 01ef72e350efef699f03483833f69b84699064b0
     <title>Aedes em Foco</title>
     <description>O Mosquito Aedes Aegypti não é mais forte que um país inteiro</description>
     <link>http://lmedesenvolvimento.github.io/</link>
     <atom:link href="http://lmedesenvolvimento.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Jan 2017 17:23:32 -0300</pubDate>
-    <lastBuildDate>Wed, 25 Jan 2017 17:23:32 -0300</lastBuildDate>
+    <pubDate>Wed, 25 Jan 2017 17:59:12 -0300</pubDate>
+    <lastBuildDate>Wed, 25 Jan 2017 17:59:12 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
 =======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> cc9657e82a1c3cb9d81c33712faea4911420a939
->>>>>>> 01ef72e350efef699f03483833f69b84699064b0
     <title>Aedes em Foco</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
@@ -29,12 +20,6 @@
     <lastBuildDate>Thu, 15 Sep 2016 15:09:34 -0300</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> cc9657e82a1c3cb9d81c33712faea4911420a939
-=======
->>>>>>> 01ef72e350efef699f03483833f69b84699064b0
 >>>>>>> cc9657e82a1c3cb9d81c33712faea4911420a939
       <item>
         <title>Welcome to Jekyll!</title>
@@ -54,18 +39,8 @@
 
 </description>
         <pubDate>Fri, 22 Jul 2016 16:05:35 -0300</pubDate>
-<<<<<<< HEAD
         <link>http://lmedesenvolvimento.github.io/jekyll/update/2016/07/22/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">http://lmedesenvolvimento.github.io/jekyll/update/2016/07/22/welcome-to-jekyll.html</guid>
-=======
-<<<<<<< HEAD
-        <link>http://lmedesenvolvimento.github.io/jekyll/update/2016/07/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://lmedesenvolvimento.github.io/jekyll/update/2016/07/22/welcome-to-jekyll.html</guid>
-=======
-        <link>http://yourdomain.com/jekyll/update/2016/07/22/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/07/22/welcome-to-jekyll.html</guid>
->>>>>>> cc9657e82a1c3cb9d81c33712faea4911420a939
->>>>>>> 01ef72e350efef699f03483833f69b84699064b0
         
         
         <category>jekyll</category>
