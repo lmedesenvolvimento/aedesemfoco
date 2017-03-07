@@ -3,7 +3,10 @@ footer{
   color: white;
   padding: 2em 0px;
   .icon-aedes-logo{
-    font-size: 48px;
+    font-size: 56px;
+    &:before{
+      color: $primary !important;
+    }
   }
   .title{
     color: white;
