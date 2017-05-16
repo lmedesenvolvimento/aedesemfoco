@@ -3,3 +3,4 @@
 .assets_cache
 .jekyll-metadata
 _asset_bundler_cache/
+_site/
