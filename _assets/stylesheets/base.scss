@@ -42,6 +42,15 @@ section{
   }
 }
 
+// Youtube Gallery
+
+#ytgallery .panel{
+  min-height: 420px;
+  a{
+    outline: none;
+  }
+}
+
 // IMG
 
 .img-responsive{

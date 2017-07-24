@@ -28,6 +28,7 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-bootswatch', '~>3.3.6'
   gem 'rails-assets-bourbon', '4.2.6'
   gem 'rails-assets-flexboxgrid','6.3.0'
+  gem 'rails-assets-fancybox', '3.0.47'
   gem 'rails-assets-videojs', '5.11.0'
   gem 'rails-assets-videojs-youtube', '2.1.0'
   gem 'rails-assets-jquery.scrollTo', '2.1.2'

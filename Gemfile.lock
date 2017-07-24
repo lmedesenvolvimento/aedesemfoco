@@ -63,6 +63,7 @@ GEM
     rails-assets-bootswatch (3.3.6.2)
       rails-assets-bootstrap (~> 3.3.6)
     rails-assets-bourbon (4.2.6)
+    rails-assets-fancybox (3.0.47)
     rails-assets-flexboxgrid (6.3.0)
     rails-assets-jquery (2.2.3)
     rails-assets-jquery.scrollTo (2.1.2)
@@ -109,6 +110,7 @@ DEPENDENCIES
   parslet (= 1.7.1)
   rails-assets-bootswatch (~> 3.3.6)!
   rails-assets-bourbon (= 4.2.6)!
+  rails-assets-fancybox (= 3.0.47)!
   rails-assets-flexboxgrid (= 6.3.0)!
   rails-assets-jquery (= 2.2.3)!
   rails-assets-jquery.scrollTo (= 2.1.2)!
@@ -120,5 +122,8 @@ DEPENDENCIES
   tilt (= 2.0.1)
   uglifier
 
+RUBY VERSION
+   ruby 2.3.0p0
+
 BUNDLED WITH
-   1.11.2
+   1.14.3
