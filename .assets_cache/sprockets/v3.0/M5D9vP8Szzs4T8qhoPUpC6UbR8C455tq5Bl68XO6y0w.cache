@@ -1,0 +1,46 @@
+I"Ñ(function() {
+  (function() {
+    return $(document).ready(function(e) {
+      $("[sref-scroll]").on("click", function(e) {
+        var target;
+        e.preventDefault();
+        target = $(e.target).attr("sref-scroll");
+        return $("body, html").scrollTo(target, {
+          duration: 1000
+        });
+      });
+      videojs("about").ready(function() {
+        return this.on("play", function(e) {
+          $(".vjs-big-play-button").css("opacity", "1");
+          return $("body, html").scrollTo("#about", {
+            duration: 1000
+          });
+        });
+      });
+      $("body").delegate(".vjs-big-play-button", "click", function(e) {
+        return $(e.target).css("opacity", "0");
+      });
+      return $(".slide").slick({
+        infinite: false,
+        slidesToShow: 3,
+        prevArrow: "<a class='slick-prev fa fa-angle-left'></a>",
+        nextArrow: "<a class='slick-next fa fa-angle-right'></a>",
+        responsive: [
+          {
+            breakpoint: 750,
+            settings: {
+              slidesToShow: 2
+            }
+          }, {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    });
+  })();
+
+}).call(this);
+:ET
