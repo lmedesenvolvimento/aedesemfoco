@@ -13,9 +13,9 @@ description: O Mosquito Aedes Aegypti não é mais forte que um país inteiro
 url: "http://lmedesenvolvimento.github.io" # the base hostname & protocol for your site
 yt_url: https://www.youtube.com/embed/4ltt3-JsQrY?autohide=1&wmode=transparent
 android_app: https://play.google.com/store/apps/details?id=br.ufc.lme.zikazero
-ios_app:  https://appsto.re/br/7vfxeb.i
+ios_app: https://appsto.re/br/7vfxeb.i
 android_game: https://play.google.com/store/apps/details?id=com.LME.Jogo_Aedes
-ios_game: ios_game:  https://itunes.apple.com/br/app/gamezika/id1374400507?mt=8
+ios_game: https://itunes.apple.com/br/app/gamezika/id1374400507?mt=8
 
 # Build settings
 markdown: kramdown
