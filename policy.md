@@ -3,19 +3,19 @@ layout: page
 title: Política de privacidade
 permalink: /politica/
 ---
-Nossa política de privacidadese se aplica para o tratamento de toda informação pessoal submetida pelo usuário ou obtida pelas características da conexão como o aplitativo.
+Nossa política de privacidade se aplica para o tratamento de toda informação pessoal, submetida pelo usuário ou obtida pelas características da conexão como o aplicativo.
 
 ## Que tipo de informação capturamos?
 
 Nós capturamos e armazenamos dois tipos:
 
-* As informações que o usuário do aplicativo digita enquanto se comunica com o aplitativo: Nós podemos receber e armazenar toda a informação submetida para o aplicativo.
+* As informações que o usuário do aplicativo digita enquanto se comunica com o aplicativo: Nós podemos receber e armazenar toda a informação submetida para o aplicativo.
 
 * Nós também podemos receber e armazenar as informações disponibilizadas para o aplicativo pelo ambiente. Essa informação pode contar nome completo, endereço de email, gênero, IP, informações do navegador usado, nome do usuário, informações demográficas, e qualquer outra informação necessária para melhorar a interação com o aplicativo.
 
 ## Como usamos essas informações?
 
-Usamos as informações coletadas internamente pra analizar, aprimorar e melhorar nossos produtos e serviços.
+Usamos as informações coletadas internamente para analisar, aprimorar e melhorar nossos produtos e serviços.
 
 ## Transferência de informações para aplicativos parceiros
 
