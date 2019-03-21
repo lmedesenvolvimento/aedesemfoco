@@ -26,6 +26,14 @@ body{
   margin: 1em 0;
 }
 
+.subtitle {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 15pt;
+  color: $black;
+  text-transform: uppercase;
+}
+
 .subhead, .caption{
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
