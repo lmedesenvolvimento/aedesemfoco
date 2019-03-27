@@ -1,4 +1,45 @@
 .jumbotron {
-    height: 580px;
+    height: 20em;
     background-color: #009789;
+    overflow: hidden;
+    
+    .heading, .subhead {
+        text-align: left;
+        color: #fff;
+    }
+
+    .jumbotron-destaque {
+        font-weight: bold;
+    }
+}
+
+.curso-destaque {
+    width: 50%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right-no-margin {
+    float: right;
+    margin-left: 0;
+}
+
+.panel-horizontal .panel-heading {
+    float: left;
+    width: 50%;
+    padding: 0;
+    border-bottom: 0;
+    border-right: 1px solid transparent;
+    border-top-right-radius: 0;
+    margin-bottom: 0;
+}
+
+.panel-horizontal .panel-body {
+    float: right;
+    margin: 0 0 15px 0;
+    padding-bottom: 0;
+    width: 50%;
+    padding: 2em;
 }
