@@ -55,8 +55,8 @@
   box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 }
 
-.box-shadow-md {
-  -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+.justify-content-space-evenly {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: space-between;
 }
