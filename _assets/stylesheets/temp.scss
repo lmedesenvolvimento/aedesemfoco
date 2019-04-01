@@ -1,3 +1,66 @@
 .jumbotron {
+    height: 20em;
     background-color: #009789;
+    overflow: hidden;
+    
+    .heading, .subhead {
+        text-align: left;
+        color: #fff;
+    }
+
+    .jumbotron-destaque {
+        font-weight: bold;
+    }
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right-no-margin {
+    float: right;
+    margin-left: 0;
+}
+
+.panel-horizontal {
+    border: 1px solid transparent;
+}
+
+.panel-horizontal .panel-heading {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.panel-horizontal .panel-body {
+    float: right;
+    // margin: 0 0 15px 0;
+    width: 50%;
+    // padding: 2em;
+}
+
+.panel-heading {
+    padding: 0;
+}
+
+.panel-footer {
+    text-align: left;
+    min-height: 205px;
+
+    h3 {
+        margin-top: 0;
+    }
+}
+
+.btn-cursos, .btn-cursos:hover {
+    position: absolute;
+    background-color: #009587;
+    border-color: #009587;
+    bottom: 30px;
+    left: 18px;
 }
