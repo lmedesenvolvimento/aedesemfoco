@@ -37,7 +37,6 @@ GEM
     jekyll-assets (2.1.0)
       fastimage (~> 1.8)
       jekyll (~> 3.0)
-      sprockets (~> 3.3)
       sprockets-helpers (~> 1.2)
       tilt (~> 2.0)
     jekyll-coffeescript (1.0.1)
@@ -126,4 +125,4 @@ RUBY VERSION
    ruby 2.4.1p111
 
 BUNDLED WITH
-   1.16.6
+   2.0.1

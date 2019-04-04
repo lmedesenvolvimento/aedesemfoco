@@ -39,9 +39,11 @@
 
 .panel-horizontal .panel-body {
     float: right;
-    // margin: 0 0 15px 0;
     width: 50%;
-    // padding: 2em;
+
+    .btn-cursos {
+        position: relative;
+    }
 }
 
 .panel-heading {
