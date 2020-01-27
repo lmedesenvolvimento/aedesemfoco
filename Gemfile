@@ -5,7 +5,7 @@ gem 'libv8', '3.16.14.13'
 gem 'liquid', '3.0.6'
 gem 'parslet', '1.7.1'
 gem 'sprockets-es6', '0.8.2'
-gem 'sprockets', '3.5.2'
+gem 'sprockets', '3.7.2'
 gem 'tilt', '2.0.1'
 
 gem "jekyll-assets", "2.1.0"
