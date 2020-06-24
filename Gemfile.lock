@@ -56,7 +56,7 @@ GEM
     mini_magick (4.5.1)
     parslet (1.7.1)
       blankslate (>= 2.0, <= 4.0)
-    rack (2.0.1)
+    rack (2.2.3)
     rails-assets-bootstrap (3.3.6)
       rails-assets-jquery (>= 1.9.1, < 3)
     rails-assets-bootswatch (3.3.6.2)
